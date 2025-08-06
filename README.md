@@ -16,7 +16,7 @@ https://youtu.be/73SDbIuSbzU
 
 Working with Houdini’s Pyro Solver—or smoke solvers in general—often means battling those smooth, blobby mushroom shapes that are difficult to break up and hard to add detail to. The usual approach involves layering disturbance, turbulence, and using extra fields as masks. We spend a lot of time stacking multiple noise patterns with different mask fields, tweaking values through a time-consuming trial-and-error process.
 
-What works for one simulation often doesn’t work for another. If the simulation resolution changes, everything behaves differently. When the sourcing changes, you’ll likely need to retune the noise amplitudes and mask ranges to find the right balance.
+What works for one simulation often doesn’t work for another. If the simulation resolution changes, things behaves differently. When the sourcing or velocities changes, you’ll likely need to retune the noise amplitudes and mask ranges to find the right balance.
 
 Sometimes, simulations end up looking overly detailed with repetitive noise everywhere, giving them a fuzzy, unnatural appearance. Other times, they lack definition and feel too soft.
 
