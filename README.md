@@ -14,16 +14,21 @@ HOUDINI_DSO_PATH = "C:/Users/USER/Documents/houdini20.5/dso;&"
 https://youtu.be/73SDbIuSbzU
 
 
-Often, working with Houdini’s Pyro Solver—or smoke solvers in general—means battling those smooth, baldy mushroom shapes that are difficult to break up and hard to add detail to. We spend a lot of time layering multiple noises using different mask fields.
+Working with Houdini’s Pyro Solver—or smoke solvers in general—often means battling those smooth, blobby mushroom shapes that are difficult to break up and hard to add detail to. The usual approach involves layering disturbance, turbulence, and using extra fields as masks. We spend a lot of time stacking multiple noise patterns with different mask fields, tweaking values through a time-consuming trial-and-error process.
 
-The values that work for one simulation might not work for another. Every time the sim resolution changes, things behave differently. If the sourcing changes, you often have to re-tune the noise amplitudes and mask ranges to find the sweet spot.
+What works for one simulation often doesn’t work for another. If the simulation resolution changes, everything behaves differently. When the sourcing changes, you’ll likely need to retune the noise amplitudes and mask ranges to find the right balance.
 
-Sometimes simulations look overly detailed or have similar-looking noise everywhere, resulting in a fuzzy, unnatural feel. Other times, they lack definition and look too soft.
+Sometimes, simulations end up looking overly detailed with repetitive noise everywhere, giving them a fuzzy, unnatural appearance. Other times, they lack definition and feel too soft.
 
-I built this microsolver to help reduce the time spent wrestling with technical challenges, and give you more room to focus on creative choices. It’s designed to extract as much detail as possible from a given voxel resolution, and it adapts to resolution and speed changes automatically (though, of course, if your fluid is moving too fast, you’ll still need more substeps).
+I created this microsolver to help reduce the technical struggle and give you more freedom to focus on creative decisions. It’s designed to extract maximum detail from a given voxel resolution and adapt automatically to resolution and speed changes. (Of course, if your fluid is moving very fast, you’ll still need additional substeps.)
 
-I’m excited to see what amazing things you’ll create with it.
+To understand its potential, try breaking up the left-side smoke column in the example file using only conventional techniques. Aim for the best possible results, and track how long it takes. Then, try the same using this microsolver—perhaps even apply it to an older project by removing the traditional disturbance and turbulence setups.
 
+In terms of performance, it behaves similarly to conventional microsolvers when using face-sampled velocities, and slightly slower when using center-sampled velocities.
+
+Use this microsolver to add fine detail—ideally after applying the forces that shape the overall silhouette of your simulation.
+
+I’m looking forward to seeing the amazing results you'll achieve with it.
 
 
 
