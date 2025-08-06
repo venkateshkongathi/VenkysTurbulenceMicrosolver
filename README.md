@@ -20,7 +20,7 @@ What works for one simulation often doesn’t work for another. If the simulatio
 
 Sometimes, simulations end up looking overly detailed with repetitive noise everywhere, giving them a fuzzy, unnatural appearance. Other times, they lack definition and feel too soft.
 
-I created this microsolver to help reduce the technical struggle and give you more freedom to focus on creative decisions. It’s designed to extract maximum detail from a given voxel resolution and adapt automatically to resolution and speed changes. (Of course, if your fluid is moving very fast, you’ll still need additional substeps.)
+I made this microsolver to help reduce the technical struggle and give you more freedom to focus on creative decisions. It’s designed to extract maximum detail from a given voxel resolution and adapt automatically to resolution and speed changes. (Of course, if your fluid is moving very fast, you’ll still need additional substeps.)
 
 To understand its potential, try breaking up the left-side smoke column in the example file using only conventional techniques. Aim for the best possible results, and track how long it takes. Then, try the same using this microsolver—perhaps even apply it to an older project by removing the traditional disturbance and turbulence setups.
 
