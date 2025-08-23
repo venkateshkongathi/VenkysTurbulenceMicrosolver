@@ -5,7 +5,7 @@ Linux Version compiled for Houdini 20.5.684
 
 Place the .dll file in C:\Users\USER\Documents\houdini20.5\dso\
 
-For Linux the dso path is in the Home folder $HOME/houdini20.5/dso
+For Linux place .so file in $HOME/houdini20.5/dso/
 
 
 [https://youtu.be/73SDbIuSbzU](https://youtu.be/jnuaG3a33xI)
