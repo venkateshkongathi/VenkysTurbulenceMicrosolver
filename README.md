@@ -12,6 +12,8 @@ HOUDINI_DSO_PATH = "C:/Users/USER/Documents/houdini20.5/dso;&"
 
 [https://youtu.be/73SDbIuSbzU](https://youtu.be/jnuaG3a33xI)
 
+https://youtu.be/S5Fvllurr5Y
+
 
 Working with Houdini’s Pyro Solver—or smoke solvers in general—often means battling those smooth, blobby mushroom shapes that are difficult to break up and hard to add detail to. The usual approach involves layering disturbance, turbulence, and using extra fields as masks. We spend a lot of time stacking multiple noise patterns with different mask fields, tweaking values through a time-consuming trial-and-error process.
 
