@@ -8,7 +8,7 @@ Place the .dll file in C:\Users\USER\Documents\houdini20.5\dso\
 For Linux place .so file in $HOME/houdini20.5/dso/
 
 
-[https://youtu.be/73SDbIuSbzU](https://youtu.be/jnuaG3a33xI)
+https://youtu.be/jnuaG3a33xI
 
 https://youtu.be/S5Fvllurr5Y
 
