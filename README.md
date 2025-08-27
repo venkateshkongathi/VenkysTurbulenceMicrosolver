@@ -1,6 +1,7 @@
 # VenkysTurbulenceMicrosolver
 Houdini Pyro gas microsolver for organic turbulence details.
-Compiled for Houdini 20.5.654.
+
+Windows version Compiled for Houdini 20.5.654.
 
 Linux Version compiled for Houdini 20.5.684
 
