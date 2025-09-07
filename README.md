@@ -15,7 +15,7 @@ https://youtu.be/jnuaG3a33xI
 https://youtu.be/S5Fvllurr5Y
 
 
-Working with Houdini’s Pyro Solver—or smoke solvers in general—often means battling those smooth, blobby mushroom shapes that are difficult to break up and hard to add detail to. The usual approach involves layering disturbance, turbulence, and using extra fields as masks. We spend a lot of time stacking multiple noise patterns with different mask fields, tweaking values through a time-consuming trial-and-error process.
+Working with Houdini’s Pyro Solver or smoke solvers in general often means battling those smooth, blobby mushroom shapes that are difficult to break up and hard to add detail to. The usual approach involves layering disturbance, turbulence, and using extra fields as masks. We spend a lot of time stacking multiple noise patterns with different mask fields, tweaking values through a time consuming trial and error process.
 
 What works for one simulation often doesn’t work for another. If the simulation resolution changes, things behaves differently. When the sourcing or velocities changes, you’ll likely need to retune the noise amplitudes and mask ranges to find the right balance.
 
@@ -23,11 +23,11 @@ Sometimes, simulations end up looking overly detailed with repetitive noise ever
 
 I made this microsolver to help reduce the technical struggle and give you more freedom to focus on creative decisions. It’s designed to extract maximum detail from a given voxel resolution and adapt automatically to resolution and speed changes. (Of course, if your fluid is moving very fast, you’ll still need additional substeps.)
 
-To understand its potential, try breaking up the left-side smoke column in the example file using only conventional techniques. Aim for the best possible results, and track how long it takes. Then, try the same using this microsolver—perhaps even apply it to an older project by removing the traditional disturbance and turbulence setups.
+To understand its potential, try breaking up the smoke column in the example file using only conventional techniques. Aim for the best possible results, and track how long it takes. Then, try the same using this microsolver perhaps even apply it to an older project by removing the traditional disturbance and turbulence setups.
 
-In terms of performance, it behaves similarly to conventional microsolvers when using face-sampled velocities, and slightly slower when using center-sampled velocities.
+In terms of performance, it behaves similarly to conventional microsolvers when using face sampled velocities, and slightly slower when using center sampled velocities.
 
-Use this microsolver to add fine detail—ideally after applying the forces that shape the overall silhouette of your simulation.
+Use this microsolver to add fine detail ideally after applying the forces that shape the overall silhouette of your simulation.
 
 I’m looking forward to seeing the amazing results you'll achieve with it.
 
